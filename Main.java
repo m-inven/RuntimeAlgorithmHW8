@@ -131,7 +131,7 @@ public class Main {
         long startTime = System.currentTimeMillis();
         rangeV1(numbers);
         long endTime = System.currentTimeMillis();
-        System.out.println("rangeV1 with array of size " + numbers.length + " took " +
+        System.out.println("rangeV1 with array of length " + numbers.length + " took " +
                 (endTime - startTime) + " milliseconds.");
     }
 
@@ -140,7 +140,7 @@ public class Main {
         long startTime = System.currentTimeMillis();
         rangeV2(numbers);
         long endTime = System.currentTimeMillis();
-        System.out.println("rangeV2 with array of size " + numbers.length + " took " +
+        System.out.println("rangeV2 with array of length " + numbers.length + " took " +
                 (endTime - startTime) + " milliseconds.");
     }
 
@@ -149,7 +149,7 @@ public class Main {
         long startTime = System.currentTimeMillis();
         rangeV3(numbers);
         long endTime = System.currentTimeMillis();
-        System.out.println("rangeV3 with array of size " + numbers.length + " took " +
+        System.out.println("rangeV3 with array of length " + numbers.length + " took " +
                 (endTime - startTime) + " milliseconds.\n");
     }
 
